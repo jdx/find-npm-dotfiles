@@ -1,0 +1,47 @@
+{
+  "name": "find-npm-dotfiles",
+  "version": "1.0.0",
+  "author": "Jeff Dickey <216188+jdxcode@users.noreply.github.com>",
+  "bin": {
+    "find-npm-dotfiles": "./bin/run"
+  },
+  "bugs": "https://github.com/jdxcode/find-npm-dotfiles/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^1",
+    "tslib": "^1"
+  },
+  "devDependencies": {
+    "@oclif/tslint": "^1",
+    "@types/chai": "^4",
+    "@types/mocha": "^5",
+    "@types/node": "^10",
+    "ts-node": "^6",
+    "tslint": "^5",
+    "typescript": "^2.8"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "index.js"
+  ],
+  "homepage": "https://github.com/jdxcode/find-npm-dotfiles",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "oclif": {
+    "bin": "find-npm-dotfiles"
+  },
+  "repository": "jdxcode/find-npm-dotfiles",
+  "scripts": {
+    "posttest": "tsc -p . --noEmit && tslint -p . -t stylish",
+    "prepack": "rm -rf lib && tsc",
+    "test": "echo NO TESTS"
+  },
+  "types": "lib/index.d.ts"
+}
