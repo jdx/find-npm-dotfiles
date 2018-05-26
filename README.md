@@ -2,6 +2,8 @@ find-npm-dotfiles
 =================
 
 
+searches for dotfiles in random npm packages. Used for vulnerability detection
+
 
 [![Version](https://img.shields.io/npm/v/find-npm-dotfiles.svg)](https://npmjs.org/package/find-npm-dotfiles)
 [![CircleCI](https://circleci.com/gh/jdxcode/find-npm-dotfiles/tree/master.svg?style=shield)](https://circleci.com/gh/jdxcode/find-npm-dotfiles/tree/master)
