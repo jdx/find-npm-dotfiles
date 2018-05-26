@@ -10,11 +10,16 @@
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^1",
+    "all-the-package-names": "^1.3544.0",
+    "cli-ux": "^4.4.0",
+    "list-npm-contents": "^1.0.1",
+    "lodash": "^4.17.10",
     "tslib": "^1"
   },
   "devDependencies": {
     "@oclif/tslint": "^1",
     "@types/chai": "^4",
+    "@types/lodash": "^4.14.109",
     "@types/mocha": "^5",
     "@types/node": "^10",
     "ts-node": "^6",
